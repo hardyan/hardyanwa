@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    background-image: url("../img/pattern.jpg");
+    line-height: 1.5;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-0 {
+    box-shadow: none;
+}
+
+.header-1 {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.btn {
+    margin: .5rem 1rem;
+    font-style: normal;
+    padding: .25rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #212121;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.btn:hover {
+    color: #212121;
+    background-color: #6baafc;
+    border: 1px solid transparent;
+}
+
+.btn:focus {
+    color: white;
+    background-color: #458ce9;
+    border: 1px solid transparent;
+}
+
+section {
+    padding: 6rem 0 2rem;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    padding: .5rem 0;
+    background-color: #212121;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.w-25{
+    width: 25%;
+}
+.w-50{
+    width: 50%;
+}
+
+.mr-2{
+    margin-right: .5rem;
+}
+
+.mr-3{
+    margin-right: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #212121;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 2rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+} 
